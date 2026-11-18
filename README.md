@@ -56,3 +56,29 @@ Because you looped each 4-chord sequence twice per track, every progression yiel
 12. **Track 12 (Bb Minor):** `Bbm – Ebm – Fm – Gb – Bbm – Ebm – Fm – Gb`
 
 If you are slicing these into a sample pack or dataset, every chord slice is cleanly quantized to **2.0 seconds (44,100 or 48,000 samples × 2)** starting right on the downbeat of every bar.
+
+## Update: ThirdBatch
+
+**ThirdBatch** – 33 new WAV files covering chords beyond basic major/minor triads, recorded on **metal guitar, piano, and ukulele**. Files use the prefix `ThirdBatch - <Chord><Quality>_<Instrument>.wav` (e.g. `ThirdBatch - Sus2C2-B3_Piano.wav`).
+
+### Chord types included
+
+| Category | Qualities |
+| --- | --- |
+| Suspended | sus2, sus4, 7sus4 |
+| Added tone | add9, m(add9) |
+| Seventh chords | 7, maj7, m7 |
+| Sixth chords | 6, m6 |
+| Diminished | dim7, m7b5 (half-diminished) |
+| Power chord | 5 |
+
+### Batch Summary
+
+* **Total Files Added:** 33
+* **Instruments:** Metal_Guitar, Piano, Ukulele ([11] files each)
+* **Tempo & Timing:** 120 BPM (4/4), [4 beats = 2 seconds per chord]
+* **Roots Covered:** [all 12 roots C2-B3 for Guitar and Piano (only C4-B4 for Ukulele)]
+
+### Notes
+* Third batch is similar to the First batch i.e. chords going up a semitone after every 4 notes starting from C, C#, D ... And for Metal guitar and Piano 24 chords are played _but for Ukulele only 12 chords C4-B4 are played_.
+* Together with FirstBatch and SecondBatch, the dataset now covers triads, suspended chords, added-tone chords, seventh chords, and diminished chords across MIDI, synthesized, and real instrument recordings.
